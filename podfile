@@ -1,0 +1,32 @@
+target 'ZhouSiOrePool' do
+
+  use_frameworks!
+  # 网络
+      pod 'Moya'
+  # 自动布局
+      pod 'SnapKit'
+  # 键盘
+    pod 'IQKeyboardManagerSwift'
+  # 下拉刷新
+      pod 'MJRefresh'
+  # 轮播图
+      pod 'LLCycleScrollView', :git => "https://gitee.com/fengxinzi1219/LLCycleScrollView.git"
+  
+  #
+    pod 'JXSegmentedView'
+
+    pod 'Qiniu'
+
+    pod 'PinLayout'
+  #        
+    pod 'ZJTableViewManager'
+    pod 'KeychainSwift'
+    pod 'SwiftyUserDefaults', '~> 3.0.1'
+    pod 'SwiftyJSON'
+    pod 'MBProgressHUD'
+    pod 'Kingfisher'
+    #友盟
+    pod 'UMengAnalytics-NO-IDFA'
+
+    
+end

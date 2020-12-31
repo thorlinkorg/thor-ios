@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ConfirmOrderBottomView" customModule="ZhouSiOrePool" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drh-ne-NEe">
+                    <rect key="frame" x="15" y="-0.5" width="384" height="50"/>
+                    <color key="backgroundColor" red="0.14117647059999999" green="0.58431372550000005" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="YGU-mn-xp8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="去付款">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="drh-ne-NEe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="PTZ-w5-3ky"/>
+                <constraint firstAttribute="trailing" secondItem="drh-ne-NEe" secondAttribute="trailing" constant="15" id="ToQ-dC-6mt"/>
+                <constraint firstItem="drh-ne-NEe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Umc-70-C2W"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="payButton" destination="drh-ne-NEe" id="uHs-vV-CTW"/>
+            </connections>
+            <point key="canvasLocation" x="-172" y="141"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SC_FunctionTipCell" id="3di-Ln-SAh" customClass="SC_FunctionTipCell" customModule="宙斯矿池" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="179"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Yi2-NH-cT6">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="179"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="erX-qT-ndX">
+                        <rect key="frame" x="0.0" y="119" width="395" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="宙斯矿池视频资料" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="335-fv-xYM">
+                                <rect key="frame" x="15" y="20.5" width="131" height="19.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" red="0.070588235294117646" green="0.070588235294117646" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="more_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ypZ-7H-7Ba">
+                                <rect key="frame" x="372" y="24" width="8" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="bSE-aF-o8R"/>
+                                    <constraint firstAttribute="width" constant="8" id="vdk-c8-YOf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更多" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sll-yI-rhF">
+                                <rect key="frame" x="338" y="21.5" width="29" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="335-fv-xYM" firstAttribute="centerY" secondItem="erX-qT-ndX" secondAttribute="centerY" id="3zh-IJ-loD"/>
+                            <constraint firstItem="sll-yI-rhF" firstAttribute="centerY" secondItem="erX-qT-ndX" secondAttribute="centerY" id="5B4-Z6-eRP"/>
+                            <constraint firstItem="ypZ-7H-7Ba" firstAttribute="centerY" secondItem="erX-qT-ndX" secondAttribute="centerY" id="5do-Vh-gp1"/>
+                            <constraint firstItem="ypZ-7H-7Ba" firstAttribute="leading" secondItem="sll-yI-rhF" secondAttribute="trailing" constant="5" id="C1Y-SW-xXw"/>
+                            <constraint firstAttribute="height" constant="60" id="Ef8-wp-4kf"/>
+                            <constraint firstAttribute="trailing" secondItem="ypZ-7H-7Ba" secondAttribute="trailing" constant="15" id="Kxb-Re-Msg"/>
+                            <constraint firstItem="335-fv-xYM" firstAttribute="leading" secondItem="erX-qT-ndX" secondAttribute="leading" constant="15" id="cUk-bL-6dU"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsr-Ey-AJq">
+                        <rect key="frame" x="0.0" y="0.0" width="395" height="120"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tMR-sY-6mg">
+                                <rect key="frame" x="15" y="10" width="365" height="110"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="tMR-sY-6mg" secondAttribute="bottom" id="1G2-ut-Mnj"/>
+                            <constraint firstAttribute="height" constant="120" id="5Q3-Md-BYg"/>
+                            <constraint firstItem="tMR-sY-6mg" firstAttribute="top" secondItem="bsr-Ey-AJq" secondAttribute="top" constant="10" id="LtE-au-cIG"/>
+                            <constraint firstAttribute="trailing" secondItem="tMR-sY-6mg" secondAttribute="trailing" constant="15" id="UCW-dm-FAp"/>
+                            <constraint firstItem="tMR-sY-6mg" firstAttribute="leading" secondItem="bsr-Ey-AJq" secondAttribute="leading" constant="15" id="mXQ-Z9-rb8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="bsr-Ey-AJq" secondAttribute="trailing" id="1Z1-2Y-eyR"/>
+                    <constraint firstAttribute="bottom" secondItem="erX-qT-ndX" secondAttribute="bottom" id="Tob-UE-UCv"/>
+                    <constraint firstItem="bsr-Ey-AJq" firstAttribute="top" secondItem="Yi2-NH-cT6" secondAttribute="top" id="cw5-Fq-6JC"/>
+                    <constraint firstItem="erX-qT-ndX" firstAttribute="leading" secondItem="Yi2-NH-cT6" secondAttribute="leading" id="dwa-jg-uQv"/>
+                    <constraint firstItem="bsr-Ey-AJq" firstAttribute="leading" secondItem="Yi2-NH-cT6" secondAttribute="leading" id="iNk-TW-czu"/>
+                    <constraint firstAttribute="trailing" secondItem="erX-qT-ndX" secondAttribute="trailing" id="s5x-j7-2FU"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="395" height="169"/>
+            <connections>
+                <outlet property="hbBannerView" destination="bsr-Ey-AJq" id="MfV-Gi-qSY"/>
+                <outlet property="hdBannerImageView" destination="tMR-sY-6mg" id="zgh-Ei-D4e"/>
+            </connections>
+            <point key="canvasLocation" x="-205.07246376811597" y="118.19196428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="more_icon" width="9" height="14"/>
+    </resources>
+</document>
